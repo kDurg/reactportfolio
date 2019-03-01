@@ -1,21 +1,14 @@
 import React from 'react';
-import { Jumbotron, Button, Container } from 'reactstrap';
-import '../App.css'
-import HomeImage from "../assets/bikeBackground.jpg"
-import LazyHero from 'react-lazy-hero';
-import "../App.css";
+import { Jumbotron, Container } from 'reactstrap';
 
-
-const Example = (props) => {
+const jumbotron = (props) => {
     return (
-        <Jumbotron>
-            {/* <Container> */}
-                {/* <p>Jumbotron Image</p> */}
-                {/* <img src = {HomeImage} /> */}
-                <img src = {HomeImage} width = "95vw" height = "95vh" background-attachment = "fixed" ></img>
-            {/* </Container> */}
+        <Jumbotron fluid>
+            <Container fluid>
+                <p id = "jumbotronText" text>Web Developer.</p>
+            </Container>
         </Jumbotron>
     );
 };
 
-export default Example;
+export default jumbotron;

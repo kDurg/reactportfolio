@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Components, { Navbar, Jumbotron, Textbox, ProPersonal, Footer } from "./Components/AllComponents"
 import { Container, Row, Col } from 'reactstrap';
-import LazyHero from 'react-lazy-hero';
-
-
 
 class App extends Component {
   render() {
