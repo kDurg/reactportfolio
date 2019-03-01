@@ -1,25 +1,38 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Components, { Navbar, Jumbotron, Textbox, ProPersonal, Footer } from "./Components/AllComponents"
+import { Container, Row, Col } from 'reactstrap';
+import LazyHero from 'react-lazy-hero';
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className = {Container}>
+
+          <div className = {Row}>
+            <header className="App-header">
+              <Navbar />
+            </header>
+          </div>
+        
+          <div className = {Row}>
+            <body className= "App-body">
+              <Jumbotron />
+              <Textbox /> 
+              <ProPersonal />
+            </body>
+          </div>
+
+          <div className = {Row}>
+            <footer className = "App-footer">
+              <Footer />
+            </footer> 
+          </div>
+
+        </div>
       </div>
     );
   }

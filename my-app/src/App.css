@@ -1,33 +1,66 @@
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: gray;
+  background-color: aquamarine;
 }
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: aquamarine;
+  background-color: gray;
+}
+
+ .Jumbotron {
+  background-size: cover;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #282c34;
+  background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t31.0-8/12419140_10100155668991835_3728226421092604235_o.jpg?_nc_cat=111&_nc_ht=scontent.fapa1-1.fna&oh=e9ad01ef09615d2df2eb9f8f22e361d7&oe=5CE95609");
+  width: 99vw;
+  height: 95vh;
+  filter: blur(0px);
+}
+
+ #textboxtext {
+   width: 1080px;
+   background-color: lightcoral;
+ }
+
+ #professionalDiv, #personalDiv {
+   border-color: black;
+   border-radius: 5px;
+   border-width: 2px;
+   background-color: aqua;
+ }
+
