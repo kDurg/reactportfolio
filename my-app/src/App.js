@@ -18,16 +18,16 @@ class App extends Component {
           <div className = {Row}>
             <body className= "App-body">
               <Jumbotron />
-              <Textbox /> 
-              <ProPersonal />
+              {/* <Textbox /> 
+              <ProPersonal /> */}
             </body>
           </div>
 
-          <div className = {Row}>
+          {/* <div className = {Row}>
             <footer className = "App-footer">
               <Footer />
             </footer> 
-          </div>
+          </div> */}
 
         </div>
       </div>

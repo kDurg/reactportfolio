@@ -1,6 +1,6 @@
 import React from 'react';
 
-const textbox = (props) => {
+const Textbox = (props) => {
     return (
         <h5 id = "textboxtext">
             HTML5
@@ -14,4 +14,4 @@ const textbox = (props) => {
     )
 };
 
-export default textbox;
+export default Textbox;
