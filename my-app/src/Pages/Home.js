@@ -9,7 +9,7 @@ const Home = (props) => {
     <div className={Container}>
       <Jumbotron
         name="allJumbotron homeJumbotron"
-        headlineName="jumbotronHeadlineText"
+        headlineName="jumbotronHomeHeadlineText"
         headlineText="Web Developer."
         supportTextDivName="specializationDiv"
         supportText={

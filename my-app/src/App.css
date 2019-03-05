@@ -88,7 +88,13 @@
 }
 
 #aboutText{
-  background-color: aquamarine;
+  text-align: left;
+  text-indent: 50px;
+  margin: auto;
+  padding: 5px;
+  float: left;
+  margin-top: 30px;
+
 }
 
 #profilePic {
@@ -96,15 +102,15 @@
   background-repeat: no-repeat;
   background-position: left 1px ;
   background-size: 125%;
-  offset-position: 0px, 0px, 0px, 200px;
   width: 300px;
   height: 300px;
   border-radius: 150px;
   float: left;
-  margin-left: 100px
+  margin: auto;
+  margin-top: 30px;
 }
 
-#jumbotronHeadlineText {
+#jumbotronHomeHeadlineText {
   color: aquamarine;
   font-size: calc(10px + 15vmin);
   text-shadow: 2px 2px 30px black;
@@ -112,7 +118,14 @@
   overflow: auto;
   transition: 2000ms ease;
   transition-delay: 1000ms;
+}
 
+#jumbotronPagesHeadlineText {
+  color: aquamarine;
+  font-size: calc(15vmin);
+  text-shadow: 2px 2px 30px black;
+  text-align: center;
+  overflow: auto;
 }
 
 #textboxtext {

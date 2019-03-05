@@ -1,4 +1,5 @@
 import React from 'react'
 
-const Notfound = () => <h1>Hmm, seems like we derailed from the website somehow, please use the navigation menu to select another page!</h1>
+const Notfound = () => 
+    <img src="https://i.imgflip.com/2vaom7.jpg" title="made at imgflip.com"/>
 export default Notfound
