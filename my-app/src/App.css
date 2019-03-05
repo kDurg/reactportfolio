@@ -41,29 +41,77 @@
   background-color: gray;
 }
 
- .jumbotron, .jumbotron.jumbotron-fluid {
+.allJumbotron{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("https://scontent.fapa1-1.fna.fbcdn.net/v/t31.0-8/12419140_10100155668991835_3728226421092604235_o.jpg?_nc_cat=111&_nc_ht=scontent.fapa1-1.fna&oh=e9ad01ef09615d2df2eb9f8f22e361d7&oe=5CE95609");
-  width: 100vw;
-  height: 94vh;
-  filter: blur(0px);
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  /* transition: 2000ms; */
+  transition: 2000ms;
+  width: 100px;
+  height: 100px;
 }
 
-#jumbotronTextWD {
+.homeJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+  width: 100vw;
+  height: 94vh;
+  filter: blur(0px);
+}
+
+.headlineJumbotron{
+  width: 100vw;
+  height: 40vh;
+  filter: blur(0px);
+}
+
+.aboutJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+}
+
+.blogJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+}
+
+.contactJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+}
+
+.portfolioJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+}
+
+.resumeJumbotron {
+  background-image: url("./assets/bikeBackground.jpg");
+}
+
+#aboutText{
+  background-color: aquamarine;
+}
+
+#profilePic {
+  background-image: url("./assets/kyleTheBeautiful.jpg");
+  background-repeat: no-repeat;
+  background-position: left 1px ;
+  background-size: 125%;
+  offset-position: 0px, 0px, 0px, 200px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  float: left;
+  margin-left: 100px
+}
+
+#jumbotronHeadlineText {
   color: aquamarine;
   font-size: calc(10px + 15vmin);
   text-shadow: 2px 2px 30px black;
   padding-top: 300px;
   overflow: auto;
-  /* transition: 2000ms ease; */
-  /* transition-delay: 1000ms; */
+  transition: 2000ms ease;
+  transition-delay: 1000ms;
 
 }
 
@@ -74,16 +122,7 @@
   color: black;
   font-size: calc(30px + 2vmin);
   text-align: center;
-
-}
-.splitDiv {
-  background-color: aquamarine;
-  width: 99.1vw;
-
 }
 
-#professionalDiv, #personalDiv {
-  background-color: black;
-  margin: 10px;
-}
+
 

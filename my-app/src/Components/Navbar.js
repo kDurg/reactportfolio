@@ -20,33 +20,29 @@ export default class navbar extends React.Component {
     return (
       <div>
         <Navbar color="faded" light>
-          <NavbarBrand className="mr-auto">Kyle Durigan</NavbarBrand>
+          <NavbarBrand className="mr-auto" href="/">Kyle Durigan</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-
-              <NavItem>
-                 <NavLink href="/" active>Home</NavLink>
-               </NavItem>
               
                <NavItem>
-                <NavLink href="/About">About</NavLink>
+                <NavLink href="/about" active >About</NavLink>
                </NavItem>
 
                <NavItem>
-                 <NavLink href="/Portfolio">Portfolio</NavLink>
+                 <NavLink href="/portfolio">Portfolio</NavLink>
                </NavItem>
 
                <NavItem>
-                 <NavLink href="/Resume">Resume</NavLink>
+                 <NavLink href="/resume">Resume</NavLink>
                </NavItem>
 
                <NavItem>
-                 <NavLink href="/Blog">Blog</NavLink>
+                 <NavLink href="/blog">Blog</NavLink>
                </NavItem>
 
                <NavItem>
-                 <NavLink href="/Contact">Contact</NavLink>
+                 <NavLink href="/contact">Contact</NavLink>
                </NavItem>     
               <NavItem>
                 <NavLink href="https://github.com/kDurg">GitHub</NavLink>
