@@ -13,10 +13,12 @@ const About = (props) => {
                  />
             <div className = {Container} >
                 <Row>
-                    <Col sm="4" >
+                    <Col md="2" >
                         <img id = "profilePic" />
+                        {/* <h2>Kyle Durigan</h2> */}
                     </Col>
-                    <Col sm="7" >
+                    <Col md = "1" />
+                    <Col md="8" >
                         <Row>
                             <Textbox 
                                 id = "aboutText"

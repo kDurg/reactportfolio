@@ -26,20 +26,20 @@ export default class navbar extends React.Component {
             <Nav navbar>
               
                <NavItem>
-                <NavLink href="/about" active >About</NavLink>
+                <NavLink href="/about"  >About</NavLink>
                </NavItem>
 
                <NavItem>
                  <NavLink href="/portfolio">Portfolio</NavLink>
                </NavItem>
 
-               <NavItem>
-                 <NavLink href="/resume">Resume</NavLink>
-               </NavItem>
+               {/* <NavItem>
+                 <NavLink href="/resume" active>Resume</NavLink>
+               </NavItem> */}
 
-               <NavItem>
+               {/* <NavItem>
                  <NavLink href="/blog">Blog</NavLink>
-               </NavItem>
+               </NavItem> */}
 
                <NavItem>
                  <NavLink href="/contact">Contact</NavLink>

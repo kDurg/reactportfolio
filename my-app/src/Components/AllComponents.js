@@ -3,6 +3,7 @@ import Jumbotron from "./Jumbotron";
 import Textbox from "./Textbox";
 import ProPersonal from "./ProfPersBox";
 import Footer from "./Footer";
+import ImageBox from "./ImageBox";
 
 export {
     Navbar,
@@ -10,4 +11,5 @@ export {
     Textbox,
     ProPersonal,
     Footer,
+    ImageBox,
 }

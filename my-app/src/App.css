@@ -41,6 +41,7 @@
   background-color: gray;
 }
 
+
 .allJumbotron{
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,7 +95,6 @@
   padding: 5px;
   float: left;
   margin-top: 30px;
-
 }
 
 #profilePic {
@@ -128,13 +128,8 @@
   overflow: auto;
 }
 
-#textboxtext {
-  background-color: slategray;
-  width: 99.1vw;
-  height: 100px;
-  color: black;
-  font-size: calc(30px + 2vmin);
-  text-align: center;
+#imageCardButton {
+  margin: 3px;
 }
 
 
