@@ -88,6 +88,24 @@
   background-image: url("./assets/bikeBackground.jpg");
 }
 
+.card-deck {
+  margin-top: 20px;
+}
+
+.contactFormDiv {
+  margin-top: 20px;
+}
+
+.socialIcons{
+  font-size: 30px;
+  color: aquamarine;
+}
+
+/* .socialIconRow{
+  padding:auto;
+  margin: auto;
+} */
+
 #aboutText{
   text-align: left;
   text-indent: 50px;

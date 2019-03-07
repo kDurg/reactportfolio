@@ -10,8 +10,11 @@ import zoosnatch2Photo from "../assets/ZooSnatch2.PNG"
 const portfolioPage = (props) => {
     return (
         <>
-            <Jumbotron name = "allJumbotron headlineJumbotron portfolioJumbotron" />
-            <h1>Portfolio</h1>
+            <Jumbotron 
+                name = "allJumbotron headlineJumbotron portfolioJumbotron" 
+                headlineName = "jumbotronPagesHeadlineText"
+                headlineText = "Recent Projects"
+            />
             <CardDeck>
                 <ImageBox imageSource = {zoosnatch2Photo} title = "ZooSnatch2" tech = "ReactJS, Javascript, MongoDB, Mongoose" weblink = "https://zoosnatch2.herokuapp.com/" gitlink = "https://github.com/kDurg/zoosnatch2"/>
                 <ImageBox imageSource = {zoosnatchPhoto} title = "ZooSnatch" tech = "Javascript, HTML5, CSS3, mySQL, Sequilize" weblink = "https://zoosnatch.herokuapp.com/" gitlink = "https://github.com/kDurg/ChooseYourAdventure"/>
