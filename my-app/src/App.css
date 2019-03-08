@@ -50,7 +50,7 @@
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  transition: 2000ms;
+  transition: 4000ms;
   width: 100px;
   height: 100px;
 }
@@ -69,7 +69,7 @@
 }
 
 .aboutJumbotron {
-  background-image: url("./assets/bikeBackground.jpg");
+  background-image: url("./assets/stairwaytoheaven.jpg");
 }
 
 .blogJumbotron {
@@ -77,11 +77,11 @@
 }
 
 .contactJumbotron {
-  background-image: url("./assets/bikeBackground.jpg");
+  background-image: url("./assets/coffee.jpg");
 }
 
 .portfolioJumbotron {
-  background-image: url("./assets/bikeBackground.jpg");
+  background-image: url("./assets/wallart.jpg");
 }
 
 .resumeJumbotron {
@@ -105,6 +105,12 @@
   padding:auto;
   margin: auto;
 } */
+
+#jumbotronTextHTML, #jumbotronTextCSS, #jumbotronTextJs, #jumbotronTextReact, #jumbotronTextBullet {
+  color: aquamarine;
+  font-size: 3vmin;
+  text-shadow: 2px 2px 30px black;
+}
 
 #aboutText{
   text-align: left;
@@ -134,7 +140,8 @@
   text-shadow: 2px 2px 30px black;
   padding-top: 300px;
   overflow: auto;
-  transition: 2000ms ease;
+  opacity: 1;
+  transition: opacity 1s;
   transition-delay: 1000ms;
 }
 

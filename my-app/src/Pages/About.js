@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Components, { Navbar, Jumbotron, Textbox, ProPersonal, Footer } from "../Components/AllComponents"
 import { Container, Row, Col } from 'reactstrap';
-import websiteTextObject from "../websiteTextObject.json"
+import websiteTextObject from "../websiteTextObject.json";
 
 const About = (props) => {
     return (
