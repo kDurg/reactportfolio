@@ -10,7 +10,7 @@ import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 import Notfound from './Pages/Notfound';
-import Components, { Navbar, Jumbotron, Textbox, ProPersonal, Footer } from "./Components/AllComponents";
+import Components, { Navbar } from "./Components/AllComponents";
 
 
 class App extends Component {
